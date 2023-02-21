@@ -11,7 +11,6 @@ import {
 } from 'react-router-dom'
 import Navbar from './sections/navbar/Navbar'
 import Home from './Pages/home/Home'
-import ProjectDetail from './Pages/projectDetail/ProjectDetail'
 import Footer from './sections/footer/Footer'
 import { AnimatePresence } from 'framer-motion'
 function App() {
