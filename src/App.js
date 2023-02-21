@@ -40,11 +40,6 @@ function App() {
         <AnimatePresence>
           <Routes>
             <Route key={Router.pathname} path='/' element={<Home />}></Route>
-            <Route
-              key={Router.pathname}
-              path='/project-detail/:id'
-              element={<ProjectDetail />}
-            ></Route>
           </Routes>
         </AnimatePresence>
         <Footer></Footer>
