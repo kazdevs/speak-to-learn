@@ -72,6 +72,9 @@
   border-radius: 9px;
   object-fit: cover;
 }
+#about__portrait__for__mobile {
+  display: none;
+}
 
 .about__top .about__left .btn {
   /* margin-top: 20px; */
@@ -82,7 +85,7 @@
   .about__top {
     /* border: 2px solid gold; */
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -101,6 +104,24 @@
     /* border: 2px solid saddlebrown; */
     width: 90%;
     gap: 1rem;
+  }
+  .about__portrait {
+    display: none;
+    border-radius: 9px;
+    width: 310px;
+    height: 300px;
+    transition: var(--transition);
+    margin-right: 0%;
+    margin-bottom: 0%;
+  }
+  #about__portrait__for__mobile {
+    display: block;
+    border-radius: 9px;
+    width: 310px;
+    height: 300px;
+    transition: var(--transition);
+    margin-right: 0%;
+    margin-bottom: 0%;
   }
 }
 
@@ -144,9 +165,19 @@
     color: #ffffff;
   }
   .about__portrait {
+    display: none;
     border-radius: 9px;
-    width: 350px;
-    height: 325px;
+    width: 310px;
+    height: 300px;
+    transition: var(--transition);
+    margin-right: 0%;
+    margin-bottom: 0%;
+  }
+  #about__portrait__for__mobile {
+    display: block;
+    border-radius: 9px;
+    width: 310px;
+    height: 300px;
     transition: var(--transition);
     margin-right: 0%;
     margin-bottom: 0%;

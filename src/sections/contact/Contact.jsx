@@ -14,16 +14,20 @@ const Contact = () => {
           get to you as soon as possible.
         </p>
         <div className='contact__btns'>
-          <a href='mailto:kazdevs@gmail.com' target='_blank' className='btn'>
+          <a
+            href='mailto:speaktolearntoday@gmail.com'
+            target='_blank'
+            className='btn'
+          >
             Email
           </a>
-          <a
+          {/* <a
             href='https://www.linkedin.com/'
             target='_blank'
             className='btn white'
           >
             Linkedin
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

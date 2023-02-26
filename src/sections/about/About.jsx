@@ -20,6 +20,12 @@ const About = () => {
                 converse, speak and perfect your English speaking to
                 professional level.
               </p>
+              <div
+                className='about__portrait'
+                id='about__portrait__for__mobile'
+              >
+                <img src={AboutImg} alt='' />
+              </div>
               <p>
                 Join any of the sessions in the plans section to begin. Speak to
                 learn is fun. I promise.
@@ -30,8 +36,8 @@ const About = () => {
                 fun.
               </p>
             </div>
-            <a href='#contact' className='btn'>
-              Contact Us
+            <a href='#plans' className='btn'>
+              Join Class
             </a>
           </div>
           <div className='about__right'>

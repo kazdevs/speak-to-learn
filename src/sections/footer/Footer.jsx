@@ -19,16 +19,16 @@ const Footer = () => {
           <p>&copy; speak to learn. All rights reserved.</p>
         </div>
         <div className='footer__socials'>
-          <h2>socials</h2>
+          <h2>Contact</h2>
           <div className='social__icons'>
-            <a href='https://www.linkedin.com/' target='_blank'>
+            {/* <a href='https://www.linkedin.com/' target='_blank'>
               <GrLinkedinOption />
             </a>
 
             <a href='https://www.instagram.com/' target='_blank'>
               <AiOutlineInstagram />
-            </a>
-            <a href='mailto:kazdevs@gmail.com' target='_blank'>
+            </a> */}
+            <a href='mailto:speaktolearntoday@gmail.com' target='_blank'>
               <MdEmail />
             </a>
           </div>
