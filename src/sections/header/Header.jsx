@@ -36,7 +36,7 @@ const Header = () => {
               initial={{ x: '100%' }}
               animate={{ x: '0%' }}
               transition={{ delay: '0.4', duration: 1 }}
-              href='#projects'
+              href='#plans'
               className='btn'
             >
               Get Started
