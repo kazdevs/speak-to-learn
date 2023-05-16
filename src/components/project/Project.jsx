@@ -2,7 +2,6 @@ import React from 'react'
 import { PopupButton } from 'react-calendly'
 // import { PopupModal } from 'react-calendly'
 import './project.css'
-import ProjectImg from '../../assets/bawo.jpg'
 // import { Link } from 'react-router-dom'
 // import { HashLink as Link } from 'react-router-hash-link'
 
