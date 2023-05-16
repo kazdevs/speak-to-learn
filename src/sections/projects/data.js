@@ -1,14 +1,7 @@
-import OrganizeImg from '../../assets/Organize.png'
-import NftImg from '../../assets/Nft.png'
-// import BikerImg from '../../assets/Biker.png'
-import TeaImg from '../../assets/Tea.png'
-import HomelyImg from '../../assets/Homely.png'
-
 const data = [
   {
     id: 1,
     number: '01',
-    image: OrganizeImg,
     title: 'The Fun Class',
     price: '$10 per session',
     mainText: `
@@ -19,7 +12,6 @@ const data = [
   {
     id: 2,
     number: '02',
-    image: TeaImg,
     title: 'The Deep Dive',
     price: ' $20 per session',
     mainText: `
@@ -30,7 +22,6 @@ const data = [
   {
     id: 3,
     number: '03',
-    image: NftImg,
     title: 'Speak Some More',
     price: '$30 per session',
     mainText: `
@@ -41,7 +32,6 @@ const data = [
   {
     id: 4,
     number: '04',
-    image: HomelyImg,
     title: 'Finale',
     price: '$50 per session',
     mainText: ` A 2 hours speaking class with a curriculum as a guide for $50 per class.`,
