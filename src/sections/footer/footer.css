@@ -21,6 +21,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  overflow-y: hidden;
 }
 .footer__text {
   /* border: 2px solid red; */
@@ -106,6 +107,7 @@ footer {
   #footer {
     /* padding: 10px 0; */
     /* height: auto; */
+    overflow: hidden;
   }
   .footer__container {
     flex-direction: column;
@@ -170,6 +172,7 @@ footer {
 @media screen and (max-width: 600px) {
   #footer {
     /* padding: 10px 0; */
+    overflow: hidden;
   }
   .footer__container {
     flex-direction: column;

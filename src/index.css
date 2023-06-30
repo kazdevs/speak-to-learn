@@ -20,23 +20,27 @@
 html {
   scroll-behavior: smooth;
   font-family: 'Lato', sans-serif;
+  /* overflow: hidden; */
 }
 body {
   background: #363538;
   color: white;
   overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 .container {
   width: var(--container-width-lg);
   margin-inline: auto;
   max-width: 1920px;
   /* overflow-x: hidden; */
+  overflow: hidden;
 }
 section {
   /* border: 2px solid red; */
   /* padding-top: 10rem; */
   /* width: 100vw;
   overflow-x: hidden; */
+  overflow: hidden;
 }
 /* links */
 .section__title {
